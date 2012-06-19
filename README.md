@@ -30,7 +30,7 @@ Table name: translations
     <tr>
     <tr>
         <td>locale</td>
-        <td>enum (reccomended), varchar, tinyint</td>
+        <td>enum (recommended), varchar, tinyint</td>
         <td>contains the identifier of the translated text language</td>
     <tr>
 </table>

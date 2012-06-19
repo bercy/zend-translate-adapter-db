@@ -1,6 +1,6 @@
 ﻿Zend translate database adapter
 ==============================
-Zend transalte has shipped with lot of adapter...except database.
+Zend transalte has shipped with lot of adapter...except database.  
 If you want to store your translations in a db table, then this is the solution.
 
 Default Table structure
@@ -44,6 +44,6 @@ You have to write a model which implements the following two methods:
 
 Usage Example
 ---------------
-You shoud put this file into a zend extension folder which is able to load by autoload method.
+You shoud put this file into a zend extension folder which is able to load by autoload method.  
 After your only thing to do that put this class through an zend translator option.
 

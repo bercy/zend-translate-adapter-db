@@ -1,6 +1,7 @@
 ﻿Zend translate database adapter
 ==============================
 Zend transalte has shipped with lot of adapter...except database.
+If you want to store your translations in a db table, then this is the solution.
 
 Default Table structure
 ---------------
@@ -37,8 +38,9 @@ Table name: translations
 Dependencies
 ---------------
 You have to write a model which implements the following two methods:
-1. getAllForCache() - fetching all rows from the table
-2. getListByLocale($locale) - fetching only rows that matches the locale statement
+
+* getAllForCache() - fetching all rows from the table
+* getListByLocale($locale) - fetching only rows that matches the locale statement
 
 Usage Example
 ---------------
